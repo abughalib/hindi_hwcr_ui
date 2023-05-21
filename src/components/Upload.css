@@ -1,0 +1,13 @@
+.form {
+    height: 200px;
+    color: white;
+    background-color: black;
+    padding: 1.2rem;
+}
+
+.form input {
+    color: white;
+    background-color: black;
+    border: 1px dashed darkgrey;
+}
+
