@@ -17,7 +17,7 @@ const Upload = () => {
     if (location.state.data) {
       url += "/ocr";
     } else {
-      url += "/hwcr";
+      url += "/hwrc";
     }
 
     // Mutlipart form data
