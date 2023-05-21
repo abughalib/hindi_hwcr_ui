@@ -1,0 +1,39 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.jpg");
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 57px);
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.home * {
+  margin: 10px;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
